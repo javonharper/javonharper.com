@@ -1,34 +1,41 @@
+@textColor: white;
+
 body {
     font-size: 62.5%;
     background: #2C2C2C;
-    color: white;
+    color: @textColor;
 }
 
 header {
     text-align: center;
-    font-size: 2em;
 
     h2 {
+        font-size: 3em;
         font-family: Trebuchet, Geneva, serif;
         font-weight: bold;
     }
 
     h3 {
+        font-size: 2em;
         font-family: Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: lighter;
-
-        &:before {
-            content: '{  '
-        }
-
-        &:after {
-            content: '  }'
-        }
     }
 }
 
 .wrap {
         width: 60%;
         margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    li {
+        display: inline;
+        a {
+            font-size: 1.6em;
+            text-decoration: none; 
+            color: @textColor;
+    }
+    }
 }
