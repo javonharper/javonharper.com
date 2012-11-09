@@ -1,0 +1,17 @@
+/* humanstxt.org */
+
+Javon Harper
+site: javonharper.com
+twitter: @javonharper
+location: 39.9522° N, 75.1642° W 
+
+/* Site */
+
+Standards: HTML5, CSS3
+Components: LESS
+
+/* Thanks */
+
+http://cloudhead.io/ http://lesscss.org
+
+All the open source developers that allow me to make software penny-free.
