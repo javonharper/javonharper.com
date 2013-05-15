@@ -1,7 +1,8 @@
 html{font-size:62.5%}
-body{border-top:solid #444 5px;color:#444}
+body{border-top:solid #f33 5px;background:rgba(255,255,17,0.067);color:#444}
+h1::selection,p::selection,a::selection{color:#fff;background:#0c0}
 .content{margin:5em 20%}
-h1{font-family:'Istok Web',Helvetica,sans-serif;font-size:3em;letter-spacing:.1em}
+h1{color:#f33;font-family:'Istok Web',Helvetica,sans-serif;font-size:3em;letter-spacing:.1em}
 p{font-family:'Lora',Georgia,serif;font-size:2em}
 a{text-decoration:none;font-weight:bold;color:#444;}
-a:hover{color:#222}
+a:hover{color:#f33}

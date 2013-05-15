@@ -1,8 +1,12 @@
 black = #444
-darkBlack  = #222; // :P
+deepOrange = #FF3333
+deepGreen = #00CC00
 
 textColor = black
-textHoverColor = darkBlack
+textHoverColor = deepOrange
+topBorderColor = deepOrange
+selectionColor = deepGreen
+headerColor = deepOrange
 
 serifFonts = 'Lora', Georgia, serif
 sansSerifFonts = 'Istok Web', Helvetica, sans-serif
@@ -11,13 +15,19 @@ html
   font-size 62.5%
 
 body
-  border-top solid black 5px
+  border-top solid topBorderColor 5px
+  background: #ff11
   color textColor
+
+h1::selection, p::selection, a::selection
+  color white
+  background deepGreen
 
 .content
   margin 5em 20% 
 
 h1
+  color: headerColor
   font-family sansSerifFonts
   font-size 3em
   letter-spacing 0.1em
