@@ -1,1 +1,5 @@
-body{background:#f00}
+html{font-size:62.5%}
+body{border-top:solid #444 5px;color:#444;font-size:2em}
+.content{margin:5em 20%}
+a{text-decoration:none;font-weight:bold;color:#444;}
+a:hover{color:#222}
