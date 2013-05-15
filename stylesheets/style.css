@@ -1,5 +1,7 @@
 html{font-size:62.5%}
-body{border-top:solid #444 5px;color:#444;font-size:2em}
+body{border-top:solid #444 5px;color:#444}
 .content{margin:5em 20%}
+h1{font-family:'Istok Web',Helvetica,sans-serif;font-size:3em;letter-spacing:.1em}
+p{font-family:'Lora',Georgia,serif;font-size:2em}
 a{text-decoration:none;font-weight:bold;color:#444;}
 a:hover{color:#222}
