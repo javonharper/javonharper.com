@@ -25,7 +25,7 @@ body
   background-image url('../img/background.png')
   background-repeat no-repeat
   background-size  cover
-  background-position center
+  background-position center top
 
 h1::selection, p::selection, a::selection
   color white
@@ -34,7 +34,7 @@ h1::selection, p::selection, a::selection
 .content
   margin 5em 20% 
   padding 2em
-  background-color rgba(23, 26, 29, 0.2)
+  background-color rgba(23, 26, 29, 0.3)
 
 h1
   color headerColor
@@ -57,10 +57,9 @@ p.contact
     transition all 0.2s ease
 
     &:hover
-      color #514031
       text-decoration none
       background white
-
+      color: #4B5074 
 a
   text-decoration none
   font-weight bold
