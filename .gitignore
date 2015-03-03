@@ -1,5 +1,5 @@
-# Temp files
-*.sw?
-
-# Node files
 node_modules
+dist
+.tmp
+.sass-cache
+bower_components
