@@ -3,6 +3,12 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+@font-face {
+  font-family: 'HelveticaNeueLight';
+  src: url('fonts/helveticaneue-light-webfont.woff') format('woff'),
+       url('fonts/helveticaneue-light-webfont.ttf')  format('truetype');
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -14,6 +20,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 body {
   padding-bottom: 20px;
   font-size: 20px;
+  font-family: 'HelveticaNeueLight', arial, sans-serif;
   text-align: center;
 }
 
