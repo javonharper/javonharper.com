@@ -64,6 +64,14 @@ body {
   }
 }
 
+#personal-projects {
+  margin-top: 5em;  
+
+  p {
+    font-size: 13px;
+  }
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
