@@ -65,7 +65,12 @@ body {
 }
 
 #personal-projects {
-  margin-top: 5em;  
+  margin-top: 3em;  
+
+  .projects-header {
+    margin-bottom: 1em;  
+    font-size: 23px;
+  }
 
   p {
     font-size: 13px;
