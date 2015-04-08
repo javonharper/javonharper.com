@@ -67,6 +67,15 @@ a {
   }
 }
 
+.open-source {
+  text-align: right;
+}
+
+.project {
+  margin: 0 auto;
+  max-width: 30em;
+}
+
 .personal-projects-header {
   text-align: center;
   font-size: 20px;
@@ -101,11 +110,11 @@ a {
 
   display: inline;
   &::after {
-    // content: ' · ';
+    content: ' · ';
   }
 
   &:last-child::after {
-    // content: '';
+    content: '';
   }
 }
 
