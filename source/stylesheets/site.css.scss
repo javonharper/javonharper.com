@@ -6,7 +6,7 @@ $default-text-color: rgba(#444, 0.6);
 
 // Basic styling
 body {
-  background: #F8F8F8;
+  background: #F2F2F2;
   color: $default-text-color;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -30,6 +30,14 @@ a {
 .container {
   background-color: white;
   padding: 3em;
+}
+
+.name {
+  color: #000;
+}
+
+.title {
+  color: rgba(#000, 0.7);
 }
 
 .social-media-links {
