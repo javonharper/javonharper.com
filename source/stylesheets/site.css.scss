@@ -1,18 +1,22 @@
 @charset "utf-8";
 @import "normalize";
 
+$default-text-color: #444;
+
 body {
   background: #F8F8F8;
-  color: #444;
+  color: $default-text-color;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
   text-decoration: underline;
-  color: #333;
+  color: $default-text-color;
 
   &:hover {
+    color: rgba($default-text-color, 0.5);
 
   }
 }
