@@ -1,8 +1,10 @@
 @charset "utf-8";
 @import "normalize";
 
-$default-text-color: #444;
+$default-link-color: #444;
+$default-text-color: rgba(#444, 0.6);
 
+// Basic styling
 body {
   background: #F8F8F8;
   color: $default-text-color;
@@ -12,13 +14,13 @@ body {
 }
 
 a {
-  border-bottom: 1px solid $default-text-color;
-  color: $default-text-color;
-  padding-bottom: 0.3em;
+  border-bottom: 1px solid $default-link-color;
+  color: $default-link-color;
+  padding-bottom: 0.1em;
   text-decoration: none;
   transition: all 300ms ease;
 
-  &:hover {
+  &:hover, &:focus {
     border-color: rgba($default-text-color, 0.6);
     color: rgba($default-text-color, 0.6);
     text-decoration: none;
@@ -30,18 +32,33 @@ a {
   padding: 3em;
 }
 
-.section-header {
-  color: #BBBBBB;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 11px;
-  font-weight: bold;
-}
-
 .social-media-links {
   font-size: 18px; 
 
   a {
     margin-right: 1em;
   }
+}
+
+.section-header {
+  color: #BBBBBB;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.section {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.project-title {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.project-item {
+  margin-bottom: 1.5em;
 }
