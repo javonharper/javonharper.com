@@ -38,7 +38,7 @@ a {
 
 .title {
   color: rgba(#000, 0.7);
-  font-size: 1.7em;
+  font-size: 1.8em;
   margin-bottom: 1em;
 }
 
@@ -46,8 +46,13 @@ a {
   a {
     font-size: 20px; 
     margin-right: 1em;
-    border: none;
   }
+  margin-bottom: 2em;
+}
+
+.about-me {
+  font-size: 1.2em;
+  color: #888;
 }
 
 .section-header {
@@ -60,8 +65,8 @@ a {
 }
 
 .section {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .project-title {
