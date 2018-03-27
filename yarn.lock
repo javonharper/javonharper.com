@@ -4396,6 +4396,16 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+jsxstyle-utils@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/jsxstyle-utils/-/jsxstyle-utils-2.0.6.tgz#17fb9566c8e2ffc7b08786c0119a705bbdad2790"
+
+jsxstyle@^2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/jsxstyle/-/jsxstyle-2.0.11.tgz#40e8b62968835ad8c5e2446bf72f97375a17193d"
+  dependencies:
+    jsxstyle-utils "^2.0.6"
+
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.1.0, kind-of@^3.2.0:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
@@ -5091,6 +5101,10 @@ normalize-url@^1.4.0:
     prepend-http "^1.0.0"
     query-string "^4.1.0"
     sort-keys "^1.0.0"
+
+normalize.css@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.0.tgz#14ac5e461612538a4ce9be90a7da23f86e718493"
 
 npm-run-path@^2.0.0:
   version "2.0.2"

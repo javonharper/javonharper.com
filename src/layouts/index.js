@@ -2,19 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/Header'
+import 'normalize.css'
 import './index.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Javon Harper - Web & Mobile Product Engineer"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: "I\'m Javon, developer and designer from Phiadelphia." },
+        { name: 'keywords', content: 'web, mobile, app, developer, designer, philadelphia' },
       ]}
     />
-    <Header />
     <div
       style={{
         margin: '0 auto',
