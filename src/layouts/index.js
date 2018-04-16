@@ -2,18 +2,19 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import 'normalize.css'
+import Header from '../components/header'
 import './index.css'
 
-const TemplateWrapper = ({ children }) => (
+const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title="Javon Harper - Web & Mobile Product Engineer"
+      title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: "I\'m Javon, developer and designer from Phiadelphia." },
-        { name: 'keywords', content: 'web, mobile, app, developer, designer, philadelphia' },
+        { name: 'description', content: 'Sample' },
+        { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    <Header siteTitle={data.site.siteMetadata.title} />
     <div
       style={{
         margin: '0 auto',
@@ -27,8 +28,18 @@ const TemplateWrapper = ({ children }) => (
   </div>
 )
 
-TemplateWrapper.propTypes = {
+Layout.propTypes = {
   children: PropTypes.func,
 }
 
-export default TemplateWrapper
+export default Layout
+
+export const query = graphql`
+  query SiteTitleQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
