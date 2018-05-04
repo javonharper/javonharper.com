@@ -5,21 +5,26 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import 'normalize.css'
-import 'tachyons'
 import './index.css'
 
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title="Javon Harper - Web Developer and Design in Philadelphia"
+      title="Javon Harper, Web Developer and Designer"
       meta={[
-        { name: 'description', content: 'Independent Developer and Designer' },
+        {
+          name: 'description',
+          content:
+            "I'm Javon, an independent developer and designer In Philadelphia",
+        },
         {
           name: 'keywords',
-          content: 'Web Developer, Web Designer, Philadelphia,',
+          content: 'developer, designer, philadelphia, freelance, web, mobile',
         },
       ]}
-    />
+    >
+      <link rel="icon" href="./favicon.png" sizes="64x64" type="image/png" />
+    </Helmet>
     <div
       style={{
         margin: '0 auto',

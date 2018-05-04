@@ -2,9 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
 
+
+/* General */
+
 body {
   color: black;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.4rem;
   font-size: 16px;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
@@ -19,8 +23,8 @@ a:hover {
   color: #79a4fa;
 }
 
-::selection {
-  background-color: #fbfb8f;
+section {
+  margin-bottom: 3rem;
 }
 
 .section-header {
@@ -33,8 +37,43 @@ a:hover {
 .section-description {
   color: #b1b1b1;
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   max-width: 25rem;
+}
+
+::selection {
+  background-color: #fbfb8f;
+}
+
+
+/* Intro */
+
+.hero-text {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  max-width: 35rem;
+  line-height: 2rem;
+}
+
+
+/* Projects */
+
+.project-img {
+  background-color: #7aca80;
+  box-shadow: #ddd 0px 2px 2px;
+  height: 200px;
+  width: 100%;
+  border-radius: 3px;
+  transition: all 200ms ease-in;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
 }
 
 .project-img:hover {
@@ -44,31 +83,66 @@ a:hover {
 
 .project-name {
   margin-bottom: 0.5rem;
+  font-size: 1.3rem;
   display: block;
 }
 
 .tags {
   color: #d1d1d1;
   margin-bottom: 1rem;
-  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+
+/* About */
+
+.about {
+  margin-bottom: 4rem;
 }
 
 .personal-pic {
   width: 100%;
+  max-width: 25rem;
   box-shadow: rgb(221, 221, 221) 0px 2px 2px;
   border-radius: 3px;
   border: 1px solid #f3f3f3;
   margin-bottom: 1rem;
 }
 
-section {
-  margin-bottom: 1rem;
+@media only screen and (min-width: 768px) {
+  .about {
+    display: flex;
+  }
+
+  .personal-pic {
+    max-width: none;
+  }
+
+  .about-blurb {
+    padding: 1rem;
+  }
 }
 
 .about-text {
   margin-bottom: 1.5rem;
 }
 
+
+/* Contact */
+.contact {
+  margin-bottom: 4rem;
+}
+
+
+/* Links */
+
+.links {
+  margin-bottom: 4rem;
+}
+
+/* Footer */
+
 footer {
   font-size: 0.8rem;
 }
+
