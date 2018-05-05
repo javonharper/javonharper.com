@@ -3,6 +3,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import favicon from '../favicon.png'
 
 import 'normalize.css'
 import './index.css'
@@ -23,7 +24,7 @@ const Layout = ({ children, data }) => (
         },
       ]}
     >
-      <link rel="icon" href="./favicon.png" sizes="64x64" type="image/png" />
+      <link rel="icon" href={favicon} sizes="64x64" type="image/png" />
     </Helmet>
     <div
       style={{
