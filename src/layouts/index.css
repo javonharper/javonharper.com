@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
 
-
 /* General */
 
 body {
@@ -45,7 +44,6 @@ section {
   background-color: #fbfb8f;
 }
 
-
 /* Intro */
 
 .hero-text {
@@ -54,7 +52,6 @@ section {
   max-width: 35rem;
   line-height: 2rem;
 }
-
 
 /* Projects */
 
@@ -70,9 +67,9 @@ section {
 
 @media only screen and (min-width: 768px) {
   .projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-gap: 1rem; */
   }
 }
 
@@ -92,7 +89,6 @@ section {
   margin-bottom: 1rem;
   font-size: 0.9rem;
 }
-
 
 /* About */
 
@@ -127,12 +123,10 @@ section {
   margin-bottom: 1.5rem;
 }
 
-
 /* Contact */
 .contact {
   margin-bottom: 4rem;
 }
-
 
 /* Links */
 
@@ -145,4 +139,3 @@ section {
 footer {
   font-size: 0.8rem;
 }
-
