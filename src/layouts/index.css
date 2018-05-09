@@ -56,13 +56,10 @@ section {
 /* Projects */
 
 .project-img {
-  background-color: #7aca80;
   box-shadow: #ddd 0px 2px 2px;
-  height: 200px;
   width: 100%;
   border-radius: 3px;
   transition: all 200ms ease-in;
-  margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -79,6 +76,7 @@ section {
 }
 
 .project-name {
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.3rem;
   display: block;

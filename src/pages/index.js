@@ -125,7 +125,7 @@ const ProjectImage = ({ image }) => (
   <div>
     {image ? (
       <div>
-        <img style={{ borderRadius: '3px', maxWidth: '100%' }} src={image} />
+        <img className="project-img" src={image} />
       </div>
     ) : null}
   </div>
