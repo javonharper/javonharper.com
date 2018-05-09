@@ -3,6 +3,9 @@
 import React from 'react'
 
 import Link from 'gatsby-link'
+import goodnotesImage from '../screenshots/goodnotes.png'
+import familiarImage from '../screenshots/familiar.png'
+import tempoImage from '../screenshots/tempo.png'
 
 const IndexPage = () => (
   <div>
@@ -106,13 +109,25 @@ const IndexPage = () => (
 )
 
 const ProjectItem = ({ project }) => (
-  <div style={{ marginBottom: '3.5rem' }}>
-    {/* <div className="project-img" style={{}} /> */}
+  <div style={{ marginBottom: '4rem' }}>
+    <a href={project.link}>
+      <ProjectImage image={project.image} />
+    </a>
     <a className="project-name" href={project.link} target="_blank">
       {project.name}
     </a>
     <div className="tags">{project.tags.join(', ')}</div>
     <div style={{ maxWidth: '25rem' }}>{project.description}</div>
+  </div>
+)
+
+const ProjectImage = ({ image }) => (
+  <div>
+    {image ? (
+      <div>
+        <img style={{ borderRadius: '3px', maxWidth: '100%' }} src={image} />
+      </div>
+    ) : null}
   </div>
 )
 
@@ -122,6 +137,7 @@ const projects = [
   {
     name: 'Goodnotes.io',
     link: 'http://goodnotes.io',
+    image: goodnotesImage,
     tags: ['music tool', 'web app'],
     description:
       'Search any musical artist and find their 5 most popular songs and videos.',
@@ -130,6 +146,7 @@ const projects = [
     name: 'Familiar',
     link:
       'https://play.google.com/store/apps/details?id=com.javonharper.familiar',
+    image: familiarImage,
     tags: ['productivity tool', 'mobile app'],
     description: 'Make time for the habits you want to build.',
   },
@@ -138,6 +155,7 @@ const projects = [
     link:
       'https://play.google.com/store/apps/details?id=com.javonharper.tempo&hl=en_US',
     tags: ['music tool', 'mobile app', 'tag three'],
+    image: tempoImage,
     description:
       'Calculate the Beats Per Minute (BPM) or tempo of a song by simply tapping your screen.',
   },
