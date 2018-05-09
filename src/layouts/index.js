@@ -11,7 +11,7 @@ import './index.css'
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title="Javon Harper, Web Developer and Designer"
+      title="Javon Harper - Web Developer and Designer"
       meta={[
         {
           name: 'description',

@@ -15,10 +15,11 @@ const IndexPage = () => (
         I’m an independent developer and designer living and working in
         Philadelphia.
       </div>
-      <div style={{ maxWidth: '25rem' }}>
+      <div style={{ maxWidth: '35rem' }}>
         <div style={{ marginBottom: '1rem' }}>
-          I work with businesses to design and build web and mobile applications
-          that cut costs and make money.
+          I work with businesses to solve tough problems through straightforward
+          design and clear communication. I've been working independently since
+          2014.
         </div>
         <div>
           Check out my professional projects at{' '}
@@ -47,6 +48,21 @@ const IndexPage = () => (
         ))}
       </div>
     </section>
+    <section>
+      <h2 className="section-header">
+        <span
+          style={{
+            boxShadow: 'inset 0 -12px 0 0px #fbfb8f',
+            paddingRight: '2rem',
+          }}
+        >
+          Music
+        </span>
+      </h2>
+      <div className="projects">
+        {music.map((project, i) => <ProjectItem key={i} project={project} />)}
+      </div>
+    </section>
     <section className="about">
       <div className="personal-pic-wrapper">
         <img className="personal-pic" src="static/javon-small.jpg" />
@@ -62,7 +78,7 @@ const IndexPage = () => (
         <div className="about-text">
           I'm obsessed with music and create experimental electronic music and
           hip-hop on my{' '}
-          <a href="https://www.soundcloud.com/yalxo">Soundcloud </a>.
+          <a href="https://www.soundcloud.com/yalxo/tracks">Soundcloud </a>.
         </div>
         <div className="about-text">
           I also dabble in digital 3D art-- check out my{' '}
@@ -111,12 +127,6 @@ const projects = [
       'Search any musical artist and find their 5 most popular songs and videos.',
   },
   {
-    name: 'Re:creation Ltd. - HyperText',
-    link: 'https://soundcloud.com/recreation-ltd/sets/hypertext',
-    tags: ['music', 'vaporwave', 'ep'],
-    description: '5 song vaporwave EP. ',
-  },
-  {
     name: 'Familiar',
     link:
       'https://play.google.com/store/apps/details?id=com.javonharper.familiar',
@@ -130,5 +140,20 @@ const projects = [
     tags: ['music tool', 'mobile app', 'tag three'],
     description:
       'Calculate the Beats Per Minute (BPM) or tempo of a song by simply tapping your screen.',
+  },
+]
+
+const music = [
+  {
+    name: 'Re:creation Ltd. - HyperText',
+    link: 'https://soundcloud.com/recreation-ltd/sets/hypertext',
+    tags: ['music', 'vaporwave', 'ep'],
+    description: '5 song vaporwave EP. ',
+  },
+  {
+    name: 'Subterrain',
+    link: 'https://soundcloud.com/yalxo/sets/subterrain',
+    tags: ['music', 'ambient', 'ep'],
+    description: '5 song ambient EP. ',
   },
 ]
