@@ -154,7 +154,7 @@ const projects = [
     name: 'Tempo',
     link:
       'https://play.google.com/store/apps/details?id=com.javonharper.tempo&hl=en_US',
-    tags: ['music tool', 'mobile app', 'tag three'],
+    tags: ['music tool', 'mobile app'],
     image: tempoImage,
     description:
       'Calculate the Beats Per Minute (BPM) or tempo of a song by simply tapping your screen.',
