@@ -15,14 +15,13 @@ const IndexPage = () => (
         <span className="hero-text">Hey. I’m Javon.</span>
       </div>
       <div className="hero-text">
-        I’m an independent developer and designer living and working in
-        Philadelphia.
+        I’m a developer and designer living and working in Philadelphia.
       </div>
       <div style={{ maxWidth: '35rem' }}>
         <div style={{ marginBottom: '1rem' }}>
-          I work with businesses to solve tough problems through straightforward
-          design and clear communication. I've been working independently since
-          2014.
+          For a living I work with businesses to solve tough problems through
+          straightforward design and clear communication. I've been working
+          independently since 2014.
         </div>
         <div>
           Check out my professional projects at{' '}
