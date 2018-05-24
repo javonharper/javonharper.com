@@ -25,7 +25,7 @@ const IndexPage = () => (
         </div>
         <div>
           Check out my professional projects at{' '}
-          <a href="http://www.shuttleport.io">Shuttleport.io →</a>
+          <a href="http://www.shuttleport.io">shuttleport.io →</a>
         </div>
       </div>
     </section>
