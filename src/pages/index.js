@@ -20,8 +20,8 @@ const IndexPage = () => (
       <div style={{ maxWidth: '35rem' }}>
         <div style={{ marginBottom: '1rem' }}>
           For a living I work with businesses to solve tough problems through
-          straightforward design and clear communication. I've been working
-          independently since 2014.
+          web development best practices, straightforward design, and clear
+          communication. I've been working independently since 2014.
         </div>
         <div>
           Check out my professional projects at{' '}
