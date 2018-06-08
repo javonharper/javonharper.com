@@ -3,6 +3,7 @@
 import React from 'react'
 
 import Link from 'gatsby-link'
+import javonImage from '../screenshots/javon-small.jpg'
 import goodnotesImage from '../screenshots/goodnotes.png'
 import familiarImage from '../screenshots/familiar.png'
 import tempoImage from '../screenshots/tempo.png'
@@ -67,7 +68,7 @@ const IndexPage = () => (
     </section>
     <section className="about">
       <div className="personal-pic-wrapper">
-        <img className="personal-pic" src="static/javon-small.jpg" />
+        <img className="personal-pic" src={javonImage} />
       </div>
 
       <div className="about-blurb">
