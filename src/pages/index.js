@@ -7,6 +7,8 @@ import javonImage from '../screenshots/javon-small.jpg'
 import goodnotesImage from '../screenshots/goodnotes.png'
 import familiarImage from '../screenshots/familiar.png'
 import tempoImage from '../screenshots/tempo.png'
+import hypertextImage from '../screenshots/recreation.png'
+import subterrainImage from '../screenshots/ambient.png'
 
 const IndexPage = () => (
   <div>
@@ -62,7 +64,7 @@ const IndexPage = () => (
           Music
         </span>
       </h2>
-      <div className="projects">
+      <div className="music-projects">
         {music.map((project, i) => <ProjectItem key={i} project={project} />)}
       </div>
     </section>
@@ -163,14 +165,16 @@ const projects = [
 
 const music = [
   {
-    name: 'Re:creation Ltd. - HyperText',
+    name: 'HyperText',
     link: 'https://soundcloud.com/recreation-ltd/sets/hypertext',
+    image: hypertextImage,
     tags: ['music', 'vaporwave', 'ep'],
     description: '5 song vaporwave EP. ',
   },
   {
     name: 'Subterrain',
     link: 'https://soundcloud.com/yalxo/sets/subterrain',
+    image: subterrainImage,
     tags: ['music', 'ambient', 'ep'],
     description: '5 song ambient EP. ',
   },
