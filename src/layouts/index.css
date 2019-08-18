@@ -24,6 +24,9 @@ a:hover {
 
 section {
   margin-bottom: 3rem;
+  max-width: 940px;
+  margin: 0px auto;
+  padding: 1rem 2rem;
 }
 
 .section-header {
@@ -127,19 +130,28 @@ section {
   margin-bottom: 1.5rem;
 }
 
-/* Contact */
-.contact {
-  margin-bottom: 4rem;
+.copyright {
+  font-size: 0.9rem;
 }
-
-/* Links */
-
-.links {
-  margin-bottom: 4rem;
-}
-
-/* Footer */
 
 footer {
-  font-size: 0.8rem;
+  background-color: #1a1d1f;
+  padding: 3rem 1rem;
+  color: #656d78;
+}
+
+footer a {
+  color: white;
+}
+
+.contact {
+  margin-bottom: 3rem;
+}
+
+.links {
+  margin-bottom: 3rem;
+}
+
+.links a {
+  margin-right: 1rem;
 }

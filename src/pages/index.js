@@ -24,7 +24,7 @@ const IndexPage = () => (
         <div style={{ marginBottom: '1rem' }}>
           For a living I work with businesses to solve tough problems through
           web development best practices, straightforward design, and clear
-          communication. I've been working independently since 2014.
+          communication. I've been consulting since 2014.
         </div>
         <div>
           Check out my professional projects at{' '}
@@ -92,21 +92,25 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="contact">
-      <div style={{ marginBottom: '0.8rem' }}>
-        Interested in working together?
-      </div>
-      <div>
-        <a href="mailto: javon@javonharper.com">Email me</a>.
-      </div>
-    </section>
-    <section className="links">
-      Find me elsewhere on{' '}
-      <a href="https://www.github.com/javonharper">Github</a>,{' '}
-      <a href="https://www.soundcloud.com/yalxo">Soundcloud</a>, and{' '}
-      <a href="https://www.instagram.com/javonharper">Instagram</a>.
-    </section>
-    <footer>© 2018 Javon Harper.</footer>
+    <footer>
+      <section>
+        <div className="contact">
+          <div style={{ marginBottom: '1rem' }}>
+            I'm always interesed in working on new projects.{' '}
+          </div>
+          <div>
+            <a href="mailto: javon@javonharper.com">Hire me</a> if you'd like to
+            work together.
+          </div>
+        </div>
+        <div className="links">
+          <a href="https://www.github.com/javonharper">Github</a>
+          <a href="https://www.soundcloud.com/yalxo">Soundcloud</a>
+          <a href="https://www.instagram.com/javonharper">Instagram</a>
+        </div>
+        <div className="copyright">© 2019 Javon Harper</div>
+      </section>
+    </footer>
   </div>
 )
 
