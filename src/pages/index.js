@@ -65,7 +65,9 @@ const IndexPage = () => (
         </span>
       </h2>
       <div className="music-projects">
-        {music.map((project, i) => <ProjectItem key={i} project={project} />)}
+        {music.map((project, i) => (
+          <ProjectItem key={i} project={project} />
+        ))}
       </div>
     </section>
     <section className="about">
@@ -108,7 +110,9 @@ const IndexPage = () => (
           <a href="https://www.soundcloud.com/yalxo">Soundcloud</a>
           <a href="https://www.instagram.com/javonharper">Instagram</a>
         </div>
-        <div className="copyright">© 2019 Javon Harper</div>
+        <div className="copyright">
+          © {new Date().getFullYear()} Javon Harper
+        </div>
       </section>
     </footer>
   </div>
