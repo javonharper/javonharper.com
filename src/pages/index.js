@@ -14,25 +14,23 @@ const IndexPage = () => (
   <div>
     <section>
       <div className="hero-text">
-        <span style={{ marginRight: '1rem' }}>👋🏿</span>
-        <span className="hero-text">Hey. I’m Javon.</span>
+        <span style={{ marginRight: '1rem' }}>👋🏾</span>
+        <span className="hero-text">Hey. I’m Javon Harper.</span>
       </div>
       <div className="hero-text">
         I’m a developer and designer living and working in Philadelphia.
       </div>
       <div style={{ maxWidth: '35rem' }}>
         <div style={{ marginBottom: '1rem' }}>
-          For a living I work with businesses to solve tough problems through
-          web development best practices, straightforward design, and clear
-          communication. I've been consulting since 2014.
+          I'm updating this website, so come back soon!
         </div>
-        <div>
+        {/* <div>
           Check out my professional projects at{' '}
           <a href="http://www.shuttleport.io">shuttleport.io →</a>
-        </div>
+        </div> */}
       </div>
     </section>
-    <section>
+    {/* <section>
       <h2 className="section-header">
         <span
           style={{
@@ -65,9 +63,7 @@ const IndexPage = () => (
         </span>
       </h2>
       <div className="music-projects">
-        {music.map((project, i) => (
-          <ProjectItem key={i} project={project} />
-        ))}
+        {music.map((project, i) => <ProjectItem key={i} project={project} />)}
       </div>
     </section>
     <section className="about">
@@ -114,7 +110,7 @@ const IndexPage = () => (
           © {new Date().getFullYear()} Javon Harper
         </div>
       </section>
-    </footer>
+    </footer> */}
   </div>
 )
 
@@ -145,7 +141,7 @@ export default IndexPage
 
 const projects = [
   {
-    name: 'Goodnotes.io',
+    name: 'Goodnotes',
     link: 'http://goodnotes.io',
     image: goodnotesImage,
     tags: ['music tool', 'web app'],
